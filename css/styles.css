@@ -8,6 +8,8 @@
     --background-color: #FFFFFF;
     --text-color-secondary: #9DA4BD;
     --text-color-main: #303030;
+    --text-btn-main: #FFFFFF;
+    --text-btn-secondary: #303030;
 
 
 }
@@ -79,7 +81,6 @@ a {
 }
 
 .hero-text.botton {
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.6666;
     color: var(--text-color-secondary);
@@ -103,10 +104,32 @@ a {
     font-size: 42px;
     line-height: 1.1666;
     letter-spacing: 0.05em;
+    color: var(--title-color)
 
 }
-.bout-text.middle {
-    font-weight: 400;
+.about-text.middle {
         font-size: 18px;
-        line-height: 30px;
+        line-height: 1.6666;
+        color: var(--text-color)
+}
+.about-text.botton {
+    font-size: 14px;
+    line-height: 1.8571;
+    color: var(--text-color)
+}
+
+.btn-about {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3333;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--text-btn-secondary);
+
+}
+
+/* prices */
+
+.prices {
+    
 }
