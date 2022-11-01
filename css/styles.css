@@ -178,7 +178,7 @@ a {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.05em;
-    color: var(--text-color-main)
+    color: var(--text-color-main);
 
 }
 
@@ -187,14 +187,14 @@ a {
     font-size: 11px;
     line-height: 1.36;
     text-align: center;
-    color: var(--text-color-main)
+    color: var(--text-color-main);
 }
 
 .features-items sup {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.37;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 .features-text {
@@ -202,7 +202,7 @@ a {
     font-size: 11px;
     line-height: 1.36;
     text-transform: uppercase;
-    color: var(--text-color-main)
+    color: var(--text-color-main);
 }
 
 .features-title {
@@ -211,13 +211,13 @@ a {
     font-size: 42px;
     line-height: 1.16;
     letter-spacing: 0.05em;
-    color: var(--text-color-main)
+    color: var(--text-color-main);
 }
 
 .features-botton {
     font-size: 18px;
     line-height: 1.66;
-    color: var(--text-color)
+    color: var(--text-color);
 
 }
 
@@ -243,17 +243,118 @@ a {
     font-size: 42px;
     line-height: 1.16;
     letter-spacing: 0.05em;
+    color: var(--text-color-main);
 
 }
 
 .barbers h3 {
     font-size: 18px;
     line-height: 1.38;
-    color: var(--text-color-main)
+    color: var(--text-color-main);
 }
 
 .barbers p {
     font-size: 14px;
     line-height: 1.35;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+}
+
+/* barba */
+
+.barba {
+    background-color: var(--background-color);
+
+}
+
+.barba p {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    color: var(--text-color-main);
+}
+
+/* contacts */
+
+.contacts {
+    letter-spacing: 0.02em;
+    background-color: #2a2a2a2a;
+}
+
+.contacts h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--main-color);
+}
+
+.contacts .map {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.66;
+    color: var(--text-color-secondary);
+
+}
+.contacts .map:hover,
+.contacts .map:focus {
+    color: var(--secondary-color);
+
+}
+.contacts .numb {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    color: var(--text-color-secondary);
+
+}
+.contacts .numb:hover,
+.contacts .numb:focus {
+    color: var(--secondary-color);
+
+}
+
+.contacts .mail {
+    font-size: 18px;
+    line-height: 1.66;
+    color: var(--text-color-secondary);
+    text-decoration-line: underline;
+
+}
+.contacts .mail:hover,
+.contacts .mail:focus {
+    color: var(--secondary-color);
+
+}
+address {
+    font-style: normal;
+}
+.contacts-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    color: var(--main-color);
+}
+.contacts-time {
+    font-size: 18px;
+    line-height: 1.66;
+    color: var(--text-color-secondary);
+}
+/* footer */
+.footer {
+    background: #F7F7F7;
+    letter-spacing: 0.2em;
+
+}
+.copyright-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: var(--text-color-secondary);
+}
+.footer ul {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    color: var(--text-color-main)
 }
