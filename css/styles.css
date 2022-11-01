@@ -1,0 +1,112 @@
+:root {
+    --main-color: #FFFFFF;
+    --secondary-color: #FF6C00;
+    --address-color: #9DA4BD;
+    --text-color: #555555;
+    --title-color: #303030;
+    --price-color: #9DA4BD;
+    --background-color: #FFFFFF;
+    --text-color-secondary: #9DA4BD;
+    --text-color-main: #303030;
+
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* header */
+
+.nav-items {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3333;
+    color: var(--main-color);
+}
+.header {
+    background-color: rgba(25, 28, 38, 0.2);
+    letter-spacing: 0.1em;
+}
+
+.header >a{
+    color: var(--main-color);
+    font-size: 12px;
+    line-height: 1.3333;
+
+}
+.header > a:hover,
+.header > a:focus {
+    color: var(--secondary-color);
+}
+.header-btn {
+    color: var(--main-color);
+}
+.nav-item > a {
+    color: var(--main-color);
+
+}
+.nav-item > a:hover,
+.nav-item > a:focus {
+    color: var(--secondary-color);
+}
+/* hero */
+.hero {
+    letter-spacing: 0.02em;
+    background: rgba(25, 28, 38, 0.2);
+}
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.1805;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.hero-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6666;
+    color: #9DA4BD;
+}
+
+.hero-text.botton {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6666;
+    color: var(--text-color-secondary);
+}
+
+/* about */
+.about {
+    background: var(--background-color);
+    letter-spacing: 0.02em;
+}
+.about-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3636;
+    color: var(--text-color-main);
+    text-transform: uppercase;
+}
+.about-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.1666;
+    letter-spacing: 0.05em;
+
+}
+.bout-text.middle {
+    font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+}
